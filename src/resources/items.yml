@@ -1,0 +1,143 @@
+items:
+  supper_sword:
+    type: 'IRON_SWORD'
+    display: '&aSupper Sword'
+    data: 0
+    item-type: 'sword'
+    lore:
+    - '&7Basic sword can be created'
+    - '&7Made by &eZanis'
+    - '&7It is such &aSupper plugin!'
+    - '&7Found in &eSpigot!'
+    enchants:
+    - DAMAGE_ALL:3
+    - DURABILITY:10
+    - MENDING:1
+    flags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    stats:
+    - 'physic_damage:3~6'
+    - 'physic_defense:1'
+    unbreakable: true
+  hermet_boots:
+    type: 'IRON_BOOTS'
+    data: 0
+    item-type: 'boots'
+    display: '&4&lHermet Boots'
+    lore:
+    - '&7Fast as &6The Flash!!'
+    stats:
+    - 'speed:30'
+    - 'physic_defense:1~2'
+    - 'magic_defense:0.5'
+    enchants:
+    - DURABILITY:10
+    unbreakable: true
+  fire_great_sword:
+    type: DIAMOND_SWORD
+    data: 1
+    item-type: 'great-sword'
+    display: '&c&lFire Great Sword'
+    lore:
+    - '&cMythic sword can ignite enemy'
+    enchants:
+    - FIRE_ASPECT:10
+    - DAMAGE_ALL:5
+    stats:
+    - 'enhance_chance:60~80'
+    - 'magic_damage:7~8'
+    - 'magic_penetration:9~10'
+    unbreakable: true
+    flags:
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+  double_axe:
+    type: DIAMOND_AXE
+    data: 1
+    item-type: 'axe'
+    display: '&7&lDouble Axe'
+    lore:
+    - '&7Weapon of the &eViking!'
+    - '&7Swing! Swing! swing...'
+    enchants:
+    - DAMAGE_ALL:5
+    - KNOCKBACK:3
+    stats:
+    - 'crit_chance:1~5'
+    - 'physic_damage:10~15'
+    - 'physic_defense:3~6'
+    unbreakable: true
+    flags:
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+  obsidian_hammer:
+    type: DIAMOND_AXE
+    data: 2
+    item-type: 'hammer'
+    display: '&5&lObsidian Hammer'
+    stats:
+    - 'magic_defense:8~16'
+    - 'physic_defense:10~20'
+    lore:
+    - '&5The toughness tools!'
+    - '&7Harder than &bDiamond'
+    enchants:
+    - DAMAGE_ALL:4
+    unbreakable: true
+    flags:
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+  glow_ring:
+    type: GOLD_NUGGET
+    data: 1
+    item-type: 'ring'
+    display: '&eGlow Ring'
+    stats:
+    - 'parry_chance:20~25'
+    lore:
+    - '&eHoly Spirit protect you!'
+    enchants:
+    - DURABILITY:3
+    flags:
+    - HIDE_ENCHANTS
+  thief_glove:
+    type: 'LEATHER'
+    data: 1
+    item-type: 'gauntlet'
+    display: '&4Thief Gloves'
+    stats:
+    - 'crit_chance:10~15'
+    lore:
+    - '&4Increase your critical chance.'
+    - '&2Luck &7is also a skill!'
+  magic_pearl:
+    type: 'ENDER_PEARL'
+    data: 1
+    item-type: 'artifact'
+    display: '&3Magic Pearl'
+    stats:
+    - 'enhance_chance:30'
+    - 'magic_damage:3~5'
+    lore:
+    - '&3Wizard Blessing!'
+  warrior_belt:
+    type: 'IRON_INGOT'
+    data: 1
+    item-type: 'belt'
+    display: '&fWarrior Belt'
+    stats:
+    - 'health:4'
+    - 'physic_damage:3~6'
+    lore:
+    - '&7Be forged by &6legendary &7warrior.'
+  greed_necklace:
+    type: 'GOLD_INGOT'
+    data: 1
+    item-type: 'necklace'
+    display: '&eGreedy Necklace'
+    stats:
+    - 'xp_boost:60~120'
+    lore:
+    - '&aEverythings will come to you!'

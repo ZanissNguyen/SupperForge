@@ -1,0 +1,53 @@
+recipes:
+  supper_sword:
+    type: 'vertical'
+    permission: false
+    level: 2
+    time: 5
+    material:
+    - primal_stone:3
+    - log_piece:1
+    - yummy_apple:8
+    - OBSIDIAN:10
+    - DIAMOND:30
+    description:
+    - '&7This recipe is for everyone'
+  hermet_boots:
+    type: 'frame'
+    permission: true
+    level: 0
+    time: 8
+    material:
+    - FEATHER:64
+    - OBSIDIAN:10
+    - DIAMOND:30
+  fire_great_sword:
+    type: 'custom_ui_01'
+    permission: true
+    level: 10
+    time: 30
+    material:
+    - MAGMA_BLOCK:64
+    - BLAZE_POWDER:64
+    - LAVA_BUCKET:1
+    - MAGMA_CREAM:64
+  obsidian_hammer:
+    type: 'horizontal'
+    permission: true
+    level: 10.5
+    time: 30
+    material:
+    - OBSIDIAN:64
+    - STICK:64
+    - COAL_BLOCK:64
+    - MAGMA_BLOCK:64
+  double_axe:
+    type: 'corner'
+    permission: true
+    level: 10.45
+    time: 35
+    material:
+    - IRON_INGOT:64
+    - STICK:64
+    - IRON_BLOCK:32
+    - STONE:64

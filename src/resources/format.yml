@@ -1,0 +1,65 @@
+# how somethings be displayed
+format:
+  # lorestats display format
+  durability: '&7<display>: &e<value>' #can not swap these placeholder
+  stat: '&7  <stat>: <value>'
+  type: '&8&o<type>'
+  # recipe display format
+  recipe:
+    general:
+    - '&aInfomation:'
+    - '<requirement>'
+    - ''
+    - '&aMaterials:'
+    - '<material>'
+    - ''
+    - '<description>'
+    - ''
+    - '<reward_lore>'
+    requirement:
+    - '  &fRequire at least &a<lvl>LV&f.'
+    - '&7Forge time: &a<t>s'
+    material: '  &e<amount> x &f<display>'
+  # item display format
+  item:
+    general:
+    - '<type>'
+    - '<durability>'
+    - ''
+    - '<stat>'
+    - ''
+    - '<lore>'
+  stat-inventory: # see in /forge stat
+    physic:
+    - '<physic_damage>'
+    - '<physic_penetration>'
+    - ''
+    - '<crit_chance>'
+    - '<crit_damage>'
+    - ''
+    - '<accurate>'
+    - '<attack_speed>'
+    defense:
+    - '<physic_defense>'
+    - '<magic_defense>'
+    - ''
+    - '<block_chance>'
+    - '<parry_chance>'
+    - '<absorp_chance>'
+    - '<dodge_chance>'
+    - ''
+    - '<resistance>'
+    magic:
+    - '<enhance_chance>'
+    - ''
+    - '<magic_damage>'
+    - '<magic_penetration>'
+    misc:
+    - '<health>'
+    - '<heal>'
+    - ''
+    - '<speed>'
+    - '<xp_boost>'
+    buff: []
+    skill: []
+    

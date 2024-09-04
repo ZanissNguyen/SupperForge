@@ -1,0 +1,79 @@
+config:
+  # amount of frame hologram display in one second. 
+  hologram_fps: 10
+  
+  # time hologram exist
+  hologram_duration: 1
+  
+  # send catalogue
+  catalogue: true
+  
+  # update checker 
+  update_check: true
+  
+  # vanilla damage
+  vanilla_damage: true
+  
+  # digit number
+  digit: 2
+  
+  # percent stat gain from offhand item jf (they are not offhand type: shield, offhand)
+  offhand_modifier: 0.4
+  
+  # enable gain stat from armor without equip (hold in mainhand)
+  unequip_armor: false
+  
+  # enable gain stat from accessory withou equip (hold in mainhand]
+  unequip_accessory: false
+  
+  # item be broken when durability equal zero
+  item_break: true
+  
+  # percent stat gain from broken item
+  broken_item_modifier: 0
+  
+  combat:
+    # enable cooldown message
+    cooldown_msg: true
+    
+    # sound played on critical attack, block, parry,...
+    active_sound: true 
+    
+    # bonus damage for range attack
+    bonus_range_damage: 1.2
+  
+    # percent damage block can prevent
+    block_power: 0.6
+    
+    # percent damage parry can prevent and counter
+    parry_power: 0.15
+    
+    # percent damage be converted in to gold heart after you take damage (HP)
+    absorp_power: 0.5
+    
+    # maximun dodge chance you can have
+    max_dodge: 0.8
+    
+    # maximun resistance percent you can have
+    max_resistance: 0.7
+    
+    # allow deal twice or more times critical if cirtical chance is over 100%
+    multiple_critical: true
+    
+    # normal critical damage of every player without bonus stat
+    base_critical_damage: 1.2
+    
+    # amount of Physic Defend and Magic Defend gain per 1 armor vanilla attribute. Just for PVE
+    vanilla_armor_convert: 1
+    
+    # amount of Physic Defend and Magic Defend gain per 1 armor toughness vanilla attribute. Just for PVE
+    vanilla_armor_toughness_convert: 2
+    
+    # amount of Physic Damage and Magic Damage mob gains per 1 general attack damage
+    vanilla_damage_convert: 1
+    
+    # player physic damage & defend decrease by 60%
+    mob_physic_resistance: 0.6
+    
+    # player magic damage & defend decrease by 40%
+    mob_magic_resistance: 0.4

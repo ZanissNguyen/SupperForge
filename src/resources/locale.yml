@@ -1,0 +1,226 @@
+locale:
+  update-checker:
+    out-dated: '&6[<plugin_name>] &7There is a new update available.'
+    up-to-date: '&6[<plugin_name>] &7There is not a new update available.'
+  catalogue:
+    general:
+    - '&3&m|---------&b&m==========&3&m---------|'
+    - '&bPlugin:&a <plugin_name>'
+    - '&bStatus:&a <status>'
+    - '&bVersion:&a <version>'
+    - '&3&m|---------&b&m==========&3&m---------|'
+    - '&bSItems: &a<sitem_amount>'
+    - '&bSMaterials: &a<smaterial_amount>'
+    - '&bSRecipes: &a<srecipe_amount>'
+    - '&bCustom Style: &a<style_amount>'
+    - '&3&m|---------&b&m==========&3&m---------|'
+    status:
+      enable: '&aEnable'
+      disable: '&cDisable'
+  console: '&c&lCONSOLE'
+  reload: '&a<plugin_name> <version> reloaded complete.'
+  symbol:
+    tick: '✔ '
+    cross: '✘ '  
+    range: '~'
+    multiple: 'x'
+    percent: '%'
+  error:
+    only-player: '&4Only player can do this!'
+    not-number: '&c<n> &4 is not a number'
+    wrong-synax: '&4Wrong synax! Check for <cmd>'
+    no-permission: '&4You do not have permission to do that'
+    hand-nothing: '&4Your main hand is nothing!'
+    out-index: '&c<n> &4is out of indexes. &c<r>'
+    no-enchantment: '&c<e> &4is not an enchantment'
+    no-flag: '&c<f> &4is not a flag'
+    no-player: '&c<p> &4is not exist'
+    no-stat: '&c<s> &4is not a stat'
+    no-type: '&c<t> &4is not a item type'
+    player-not-online: '&c<p> &4is not online'
+  attribute:
+    prefix: '&6/SATTR &f>>'
+    type: '&aSet item type to &e<t>&a.'
+    stat:
+      set: '&aSet &e<s> <n> &ato item.'
+      active:
+        crit: '&c[CRITICAL x <bonus>]'
+        parry: '&e[PARRY]'
+        parry_damage: '&f*<dmg>*'
+        block: '&b[BLOCK]'
+        dodge: '&b[DODGE]'
+        absorp: '&e[ABSORP]'
+        enhance: '&3[ENHANCE]'
+      on_cooldown: '&cYou are on cooldown.'
+  lore:
+    prefix: '&6/SLORE &f>> '
+    add: '&aAdd <s> &ato item'
+    insert: '&aInsert <s> &ato line &e<l>'
+    set: '&aSet lore in line &e<l> &ato <s>'
+    remove: '&eRemove lore in line &e<l>'
+    clear: '&aClear item lore'
+  name:
+    prefix: '&6/SNAME &f>> '
+    set: '&aSet item name to <s>'
+    clear: '&aClear item name' 
+  ench:
+    prefix: '&6/SENCH &f>> '
+    add: '&aAdd &e<e> &alevel &e<l> &ato item'
+    remove: '&aRemove &e<e> &afrom item'
+    clear: '&aClear item enchantments'
+  flag:
+    prefix: '&6/SFLAG &f>> '
+    add: '&aAdd flag &e<f> &ato item'
+    remove: '&aRemove flag &e<f> &afrom item'
+    clear: '&aClaer item flags'
+  data:
+    prefix: '&6/SDATA &f>> '
+    set: '&aSet item custom data to &e<n>'
+  forge:
+    search: '&aTyping for keyword... Type &cCancel &ato esc!'
+    back-icon:
+      name: '&aBack'
+      lore:
+      - '&fBack to last menu.'
+      - ''
+      - '&e[CLICK]'
+    craft-icon:
+      name: '&aCraft'
+      lore:
+      - ''
+      - '&e[CLICK]'
+    info-icon:
+      name: '&aRecipe Information'
+      lore:
+      - '  &7Level: <lvl>'
+      - '  &7Time: &e<time>s'
+      - ''
+      - '  <material_status>'
+      material-status:
+        enough: '&aEvery things are ready!'
+        not-enough: '&cGo and find more materials!'
+    search-icon:
+      name: '&aSearch'
+      lore:
+      - '&fSearch for <w>'
+      - '&fFind &e<n> &fobject(s)'
+      - ''
+      - '&e[CLICK]'
+    refresh-icon:
+      name: '&aRefresh'
+      lore:
+      - '&fReset search and go to page 1'
+      - ''
+      - '&e[CLICK]' 
+    next-icon:
+      name: '&aNext Page'
+      lore:
+      - '&fGo to next page'
+      - ''
+      - '&e[CLICK]'
+    previous-icon:
+      name: '&aPrevious Page'
+      lore:
+      - '&fGo to previous page'
+      - ''
+      - '&e[CLICK]'
+    list-tips:
+    - ''
+    - '&d[LEFT CLICK] to get'
+    - '&d[RIGHT CLICK] to edit'
+    recipe-tips:
+    - '' 
+    - '&d[RIGHT CLICK] to edit'
+    stat:
+      ui-name: '&2<player> Inventory'
+      physic-name: '&7Physical Stats'
+      magic-name: '&3Magical Stats'
+      defense-name: '&7Defense Stats'
+      misc-name: '&5Misc Stats'
+      empty-slot: 
+        name: '&aEmpty Slot'
+        lore:
+        - ''
+        - '<type>'
+    item:
+      prefix: '&6/FORGE ITEM &f>> '
+      ui-name: '&2List &f| &6ITEM &f|'
+      save: '&aSave item in your hand as &e<id>'
+      give: '&aGive &e<id> &ato player &e<p>'
+      gain: '&aGain &e<id> &afrom &e<p>'
+    material:
+      prefix: '&6/FORGE MATERIAL &f>> '
+      ui-name: '&2List &f| &6MATERIAL &f|'
+      save: '&aSave item in your hand as &e<id>'
+      give: '&aGive &e<n> &aof &e<id> &ato player &e<p>'
+      gain: '&aGain &e<n> &aof &e<id> &afrom &e<p>'
+    recipe:
+      prefix: '&f/FORGE RECIPE &f>> '
+      ui-name: '&2List &f| &6RECIPE &f|'
+      craft: 
+        ui-name: '&2Craft'
+        prefix: '&6CRAFTING &f>>'
+        not-level: '&cTrain more for higher level!'
+        notice: '&aCrafting... &fMake sure you have space for <item> &fin &e<t>s'
+        not-enough-material: '&cYou do not have enough material(s). Go and find more!'
+        
+# durability display
+durability: 
+  lore-display: 'Durability'
+  run-out: '&4Your <slot> is &crun out of durability&4! Repair or throw it away!'
+  break: '4Your <slot> is &cbroken!'
+
+stat:
+  #physic stat
+  physic_damage: 'Physic Damage'
+  physic_penetration: 'Physic Penetration' 
+  accurate: 'Accurate'
+  crit_chance: 'Crit Chance'
+  crit_damage: 'Crit Damage'
+  attack_speed: 'Attack Speed'
+  
+  # magic stat
+  magic_damage: 'Magic Damage'
+  magic_penetration: 'Magic Penetration'
+  enhance_chance: 'Enhance Attack'
+  
+  # defend
+  physic_defense: 'Physic Defense'
+  magic_defense: 'Magic Defense'
+  block_chance: 'Block'
+  parry_chance: 'Parry'
+  dodge_chance: 'Dodge'
+  resistance: 'Resistance'
+  absorp_chance: 'Absorp'
+  
+  # other bonus
+  speed: 'Speed'
+  health: 'Health'
+  heal: 'Heal'
+  xp_boost: 'XP Boost'
+  
+item-type:
+  great-sword: 'Great Sword'
+  sword: 'Sword'
+  axe: 'Axe'
+  hammer: 'Hammer'
+  mace: 'Mace'
+  lance: 'Lance'
+  spear: 'Spear'
+  bow: 'Bow'
+  crossbow: 'Crossbow'
+  helmet: 'Helmet'
+  chestplate: 'Chestplate'
+  leggings: 'Leggings'
+  boots: 'Boots'
+  shield: 'Shield'
+  ring: 'Ring'
+  necklace: 'Necklace'
+  belt: 'Belt'
+  gauntlet: 'Gauntlet'
+  artifact: 'Artifact'
+  mainhand: 'Main Hand'
+  offhand: 'Off Hand'
+  twohanded: 'Two-Handed'
+  
+     

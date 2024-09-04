@@ -1,0 +1,28 @@
+materials:
+  primal_stone:
+    type: STONE
+    data: 0
+    display: '&6Primal Stone'
+    lore:
+    - '&aSpecial Stone'
+    - '&aFound near: &eDinosaur bones'
+    - '&aVery &9RARE'
+    glow: false
+    unbreakable: true
+  log_piece:
+    type: OAK_LOG
+    data: 0
+    display: '&6Log Piece'
+    lore:
+    - '&7Just a pice of wood'
+    glow: true
+    unbreakable: false
+  yummy_apple:
+    type: APPLE
+    data: 0
+    display: '&cYummy Apple'
+    lore:
+    - '&3Yummy...'
+    - '&alike a god apple'
+    glow: true
+    unbreakable: true

@@ -1,0 +1,30 @@
+name: SupperForge-Reborn
+version: 1.3.6
+author: ZanisDev
+main: org.zanissnguyen.SupperForge.SupperForge
+description: Trade item as a RPG game, Powerful tool
+
+api-version: 1.13
+
+commands:
+  slore:
+    description: edit item's lore
+    aliases: [slore, supperlore]
+  sname:
+    description: edit item's name
+    aliases: [sname, suppername]
+  sflag:
+    description: edit item's flag
+    aliases: [sflag, supperflag]
+  sench:
+    description: edit item's enchantment
+    ailases: [sench, supperench]
+  sdata:
+    description: edit item's data
+    aliases: [sdata, supperdata]
+  sattr:
+    description: edit item's attribute
+    aliases: [sattr, supperattr, sattribute, supperattribute]
+  forge:
+    description: using main supper mechanic
+    aliases: [supperforge, supper, forge]   

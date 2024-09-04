@@ -1,0 +1,79 @@
+style:
+  custom_ui_01:
+    rows: 5
+    reward_slot: 13
+    craft: 
+      type: 'ANVIL'
+      display: '&aCustom crafting button'
+      slot: 31
+      lore: 
+      - '&7Make sure you have enough material'
+      - '&e^ &7Check it in &ainfo &e^'
+      data: 0
+      glow: false
+    info:
+      type: 'CHEST'
+      display: '&aCustom infomation'
+      data: 0
+      slot: 16
+      lore:
+      - '  &7Level require: <lvl>'
+      - '  &7Take &e<time>s &7to complete'
+      - '&d------------------------'
+      - '  <material_status>'
+    back:
+      type: 'RED_STAINED_GLASS_PANE'
+      display: '&cBack'
+      data: 0 
+      lore:
+      - '&7Back to recipes list!'
+      slot: 10
+    materials_slots: 
+    - 20
+    - 28
+    - 29
+    - 30
+    - 38
+    - 24
+    - 32
+    - 33
+    - 34
+    - 42
+    icons:
+      fill:
+        type: 'GRAY_STAINED_GLASS_PANE'
+        display: ' '
+        data: 0
+        lore:
+        - 'lore testing'
+        - 'lore testing 2'
+        glow: false
+      laner:
+        type: 'YELLOW_STAINED_GLASS_PANE'
+        display: ' '
+        glow: true
+        slot:
+        - 0
+        - 9
+        - 18
+        - 27
+        - 36
+        - 8
+        - 17
+        - 26
+        - 35
+        - 44
+      process:
+        type: 'LIME_STAINED_GLASS_PANE'
+        display: ' '
+        glow: true
+        slot:
+        - 3
+        - 4
+        - 5
+        - 12
+        - 14
+        - 21
+        - 22
+        - 23
+    default_fill: 'fill'
